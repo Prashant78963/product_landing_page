@@ -43,23 +43,23 @@ font-size: 1rem;
 #container{
     text-align: center;
     width:95%;
-    max-width: 1100px;    /*here*/
+    max-width: 1100px;    
     margin:0 auto;
 }
 #email-form {
     text-align: center;
-    padding-top: 150px;    /*here*/
+    padding-top: 150px;    
 }
 #email{
-    padding:10px;          /*here*/
-    width:300px;           /*here*/
-    margin-top: 15px;      /*here*/
+    padding:10px;          
+    width:300px;           
+    margin-top: 15px;      
     font-size: 1rem;
     font-weight: bold;
 }
 #email-form #submit{
     margin: 0.5em 0 2.5em 0;
-    padding:10px 20px;          /*here*/
+    padding:10px 20px;          
     background-color: rgba(255,165,0,0.8);
     border: none;
     font-size: 1rem;
@@ -74,24 +74,24 @@ font-size: 1rem;
 }
 #features .content{
     display: flex;
-    max-width: 900px;            /*here*/
+    max-width: 900px;            
     text-align: left;
     margin:0 auto 1.2em ;
 }
 #features .content .icons{
-    padding-right:70px;             /*here*/
+    padding-right:70px;             
     align-self: center;
     color:orange
 }
 #pricing{
-    padding-top: 70px;         /*here*/
+    padding-top: 70px;         
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;           /*here*/
+    grid-gap: 30px;           
 }
 #pricing ul{
     list-style: none;
-    padding:10px;            /*here*/
+    padding:10px;            
 }
 .product{
     border:1px solid black;
@@ -99,7 +99,7 @@ font-size: 1rem;
 }
 #pricing h2{
     background-color: rgba(211,211,211,0.7);
-    padding-top: 5px;                      /*here*/
+    padding-top: 5px;                      
 }
 #pricing .amount{
     background-color: white;
@@ -107,10 +107,10 @@ font-size: 1rem;
 }
 #pricing button{
     border:none;
-    padding:10px 20px;                      /*here*/
+    padding:10px 20px;                      
     font-size: 1rem;
     background-color: rgba(255,165,0,0.8);
-    margin: 30px auto 15px;                /*here*/
+    margin: 30px auto 15px;                
     transition: all 0.3s ease 0s;
 }
 #pricing button:hover{
@@ -123,17 +123,18 @@ footer{
     align-items:flex-end;
     margin:0 auto;
     background-color: rgba(211,211,211,0.7);
-    margin-top: 50px;                         /*here*/
+    margin-top: 50px;                         
 }
 footer ul li{
     list-style: none;
     display: inline-block;
-    padding:30px 30px 10px 0;                  /*here*/
+    padding:30px 30px 10px 0;                  
     font-size: 1rem;
 }
 footer p{
-    padding:0 30px 10px 0;                     /*here*/
+    padding:0 30px 10px 0;                     
     opacity:0.7;
+    font-size: 0.8rem;
 }
 footer li a{
     text-decoration: none;
@@ -149,24 +150,31 @@ footer li a:hover{
     #header #logo img{width:300px;}
     #nav-bar ul li{display: flex;justify-content: space-evenly;margin-top: 0;}
     #email-form {
-        padding-top: 200px;                                                /*here*/
+        padding-top: 200px;                                                
     }
     #features .content{
         margin-bottom: 1.6em;
     }
     #features .content .icons{
         transform: scale(0.8);
-        padding-right: 20px;                                             /*here*/
+        padding-right: 20px;                                             
     }
     iframe{
-        width:90%; 
-        height:90%;
+        width:95%; 
+        height:auto;
     }
     #pricing{
       display: flex;
       flex-direction: column;
-      grid-gap: 20px;                                                          /*here*/
+      grid-gap: 20px;                                                          
       width: 80%;
       margin:0 auto;
+    }
+    footer{
+        width:90%;
+        margin-top: 3em;
+    }
+    footer ul li{
+        padding-top: 1em;
     }
 }
